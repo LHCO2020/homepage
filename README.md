@@ -2,22 +2,27 @@
 
 Despite an impressive and extensive effort by the LHC collaborations, there is currently no convincing evidence for new particles produced in high-energy collisions.  At the same time, there has been a growing interest in machine learning techniques to enhance potential signals using all of the available information.  
 
-In the spirit of the first LHC Olympics (circa 2005-2006) [1st, 2nd, 3rd, 4th], we are organizing the 2020 LHC Olympics.  Our goal is to ensure that the LHC search program is sufficiently well-rounded to capture "all" rare and complex signals.  The final state for this Olympics will be more focused (generic multijet events) but the observable phase space and potential BSM parameter space(s) are large: all hadrons in the event can be used for learning (be it "cuts", supervised machine learning, or unsupervised machine learning).
+In the spirit of the first LHC Olympics (circa 2005-2006) [[1st](https://indico.cern.ch/event/370125/overview), [2nd](public-archive.web.cern.ch/public-archive/en/Spotlight/SpotlightOlympics-en.html), [3rd](https://www.kitp.ucsb.edu/activities/lhco-c06), [4th](http://physics.princeton.edu/lhc-workshop/LHCO4/)], we are organizing the 2020 LHC Olympics.  Our goal is to ensure that the LHC search program is sufficiently well-rounded to capture "all" rare and complex signals.  The final state for this Olympics will be more focused (generic multijet events) but the observable phase space and potential BSM parameter space(s) are large: all hadrons in the event can be used for learning (be it "cuts", supervised machine learning, or unsupervised machine learning).
 
 We provide two types of files (from this Zenodo [link](https://doi.org/10.5281/zenodo.3547721)):
 
-"Monte Carlo Simulation Background": This is a simulated sample that does not have signal. Be warned that both the physics and the detector modeling for this simulation may not exactly reflect the “Data”.
-"Data": These are the LHCO 2020 black boxes. These samples may contain some new signal(s). We will release three black boxes during this challenge.  The first one was released on November 19. The second one was released on December 4. 
+- "Monte Carlo Simulation Background": This is a simulated sample that does not have signal. Be warned that both the physics and the detector modeling for this simulation may not exactly reflect the “Data”.
+
+- "Data": These are the LHCO 2020 black boxes. These samples may contain some new signal(s). We will release three black boxes during this challenge.  The first one was released on November 19. The second one was released on December 4. 
+
 Both the "Simulation" and "Data" have the following event selection: at least one anti-kT R = 1.0 jet with pseudorapidity |η| < 2.5 and transverse momentum pT > 1.2 TeV.   For each event, we provide a list of all hadrons (pT, η, φ, pT, η, φ, ...) zero-padded up to 700 hadrons.
 
 What you should report:
 
-A p-value associated with the dataset having no new particles (null hypothesis).
-As complete a description of the new physics as possible. For example: the masses and decay modes of all new particles (and uncertainties on those parameters).
-How many signal events (+uncertainty) are in the dataset (before any selection criteria).
-Partial submissions in only a subset of the categories are welcome! You can submit your findings at this Google form. The deadline for the challenge will be Sunday, January 12, 2020 at 5pm Eastern US Time. Results will be presented in a dedicated session at the ML4Jets2020 conference. 
+1. A p-value associated with the dataset having no new particles (null hypothesis).
 
-Outcomes will be judged based on the optimality of the p-values and the accuracy of the new physics characterization. In particular the "best" p-value will be the lowest reported p-value that is above the fully optimal p-value (as determined with a fully supervised deep learning classifier).  For accuracy, we will use the # of sigmas |(your answer - right answer) / your uncertainty| from the right answer wherever applicable.
+2. As complete a description of the new physics as possible. For example: the masses and decay modes of all new particles (and uncertainties on those parameters).
+
+3. How many signal events (+uncertainty) are in the dataset (before any selection criteria).
+
+Partial submissions in only a subset of the categories are welcome! You can submit your findings at this Google [form](https://docs.google.com/forms/d/e/1FAIpQLScw323fa9qpLbdMvGtr2YeqcGTjE5Zm18-umIDiPldi_cWxVA/viewform?usp=sf_link). The deadline for the challenge will be Sunday, January 12, 2020 at 5pm Eastern US Time. Results will be presented in a dedicated session at the ML4Jets2020 conference. 
+
+Outcomes will be judged based on the optimality of the p-values and the accuracy of the new physics characterization. In particular the "best" p-value will be the lowest reported p-value that is above the fully optimal p-value (as determined with a fully supervised deep learning classifier).  For accuracy, we will use the # of sigmas \|(your answer - right answer) / your uncertainty\| from the right answer wherever applicable.
 
 For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from this page.  To help get you started, we have also prepared simple python scripts to read in the data and do some basic processing.   The page describing the R&D phase of the challenge can be found here.
 
