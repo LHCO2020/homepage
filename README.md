@@ -34,6 +34,10 @@ Please do not hesitate to ask questions: we will use the ML4Jets slack channel t
 
 Good luck!
 
+_Gregor Kasieczka, Ben Nachman, and David Shih_
+
+November 19, 2019
+
 <!---
 
 You can use the [editor on GitHub](https://github.com/LHC-Olympics-2020/homepage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
