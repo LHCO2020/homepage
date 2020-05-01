@@ -1,10 +1,12 @@
 ## Welcome to the home of the LHC Olympics 2020!
 
-![img](anomalypicture.jpg)
+![img](Banner.jpg)
 
 Despite an impressive and extensive effort by the LHC collaborations, there is currently no convincing evidence for new particles produced in high-energy collisions.  At the same time, there has been a growing interest in machine learning techniques to enhance potential signals using all of the available information.  
 
-In the spirit of the first LHC Olympics (circa 2005-2006) [[1st](https://indico.cern.ch/event/370125/overview), [2nd](https://public-archive.web.cern.ch/public-archive/en/Spotlight/SpotlightOlympics-en.html), [3rd](https://www.kitp.ucsb.edu/activities/lhco-c06), [4th](http://physics.princeton.edu/lhc-workshop/LHCO4/)], we are organizing the 2020 LHC Olympics.  Our goal is to ensure that the LHC search program is sufficiently well-rounded to capture "all" rare and complex signals.  The final state for this Olympics will be more focused (generic multijet events) but the observable phase space and potential BSM parameter space(s) are large: all hadrons in the event can be used for learning (be it "cuts", supervised machine learning, or unsupervised machine learning).
+In the spirit of the first LHC Olympics (circa 2005-2006) [[1st](https://indico.cern.ch/event/370125/overview), [2nd](https://public-archive.web.cern.ch/public-archive/en/Spotlight/SpotlightOlympics-en.html), [3rd](https://www.kitp.ucsb.edu/activities/lhco-c06), [4th](http://physics.princeton.edu/lhc-workshop/LHCO4/)], we are organizing the 2020 LHC Olympics.  Our goal is to ensure that the LHC search program is sufficiently well-rounded to capture "all" rare and complex signals.  The final state for this Olympics will be more focused (generic multijet events) but the observable phase space and potential BSM parameter space(s) are large: all hadrons in the event can be used for learning (be it "cuts", supervised machine learning, or unsupervised machine learning).  One class of BSM topology captured by this challenge is illustrated in the following picture.
+
+![img](anomalypicture.jpg)
 
 We provide two types of files (from this Zenodo [link](https://doi.org/10.5281/zenodo.3547721)):
 
@@ -22,21 +24,37 @@ What you should report:
 
 3. How many signal events (+uncertainty) are in the dataset (before any selection criteria).
 
-Partial submissions in only a subset of the categories are welcome! You can submit your findings at this Google [form](https://docs.google.com/forms/d/e/1FAIpQLScw323fa9qpLbdMvGtr2YeqcGTjE5Zm18-umIDiPldi_cWxVA/viewform?usp=sf_link). The deadline for the challenge will be Sunday, January 12, 2020 at 5pm Eastern US Time. Results will be presented in a dedicated session at the ML4Jets2020 conference. 
+Partial submissions in only a subset of the categories are welcome! You can submit your findings at this Google [form](https://docs.google.com/forms/d/e/1FAIpQLScw323fa9qpLbdMvGtr2YeqcGTjE5Zm18-umIDiPldi_cWxVA/viewform?usp=sf_link).  Outcomes will be judged based on the accuracy of the new physics characterization. For accuracy, we will use the # of sigmas \|(your answer - right answer) / your uncertainty\| from the right answer wherever applicable.
 
-Outcomes will be judged based on the optimality of the p-values and the accuracy of the new physics characterization. In particular the "best" p-value will be the lowest reported p-value that is above the fully optimal p-value (as determined with a fully supervised deep learning classifier).  For accuracy, we will use the # of sigmas \|(your answer - right answer) / your uncertainty\| from the right answer wherever applicable.
+For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from [this page](https://zenodo.org/record/2629073#.XqycAi2ZO_x).  To help get you started, we have also prepared [simple python scripts](https://github.com/lhcolympics2020/parsingscripts) to read in the data and do some basic processing.   The page describing the R&D phase of the challenge can be found [here](https://indico.cern.ch/event/809820/page/16782-lhcolympics2020-old).
 
-For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from this page.  To help get you started, we have also prepared simple python scripts to read in the data and do some basic processing.   The page describing the R&D phase of the challenge can be found here.
-
-We strongly encourage you to publish your original research methods using these datasets. Anyone who participates will be part of a summary paper to be prepared following the workshop.
-
-Please do not hesitate to ask questions: we will use the ML4Jets slack channel to discuss technical questions related to this challenge. 
+Please do not hesitate to ask questions: we will use the [ML4Jets slack channel](https://join.slack.com/t/ml4jets/shared_invite/enQtNDc4MjAzODE0NDIyLTU0MGIxNmZlY2E4MzY2YzEwNGI2MGI5MzJmMzEwODVjYWY4MDFhMzcyODYyMDViZTY4MTg2MWM2N2Y1YjBhOWM) to discuss technical questions related to this challenge. 
 
 Good luck!
 
 _Gregor Kasieczka, Ben Nachman, and David Shih_
 
-November 19, 2019
+## Workshops
+
+### Winter Olympics
+
+The deadline for the Winter Olympics (Black Box 1) challenge was Sunday, January 12, 2020 at 5pm Eastern US Time. Results were presented in a dedicated session at the [ML4Jets2020 conference](https://indico.cern.ch/event/809820/sessions/329216/#20200116). 
+
+*See the outcome of the Summer Olympics [here](https://indico.cern.ch/event/809820/contributions/3708303/attachments/1971116/3347225/SummaryTalk.pdf).*
+
+### Summer Olympics
+
+Black boxes 2 and 3 will be opened at an event originally scheduled ot be [hosted at DESY in July 2020](http://indico.desy.de/indico/e/anomaly2020).  However, given the situation with COVID-19, this event will be virtual. We will announce the details soon.
+
+## Publications
+
+We strongly encourage you to publish your original research methods using these datasets.  We envision making a community comparison / summary paper at some point.  Here are papers published with the LHCO dataset.  Please send links to your papers if you have used this dataset!  Many more preliminary studies can be found in workshops listed above.
+
+- *Tag N' Train: A Technique to Train Improved Classifiers on Unlabeled Data*, Oz Amram and Cristina Mantilla Suarez, [hep-ph/2002.123760](https://arxiv.org/abs/2002.123760)
+
+- *Simulation Assisted Likelihood-free Anomaly Detection*, Anders Andreassen, Benjamin Nachman, David Shih, [hep-ph/2001.05001](https://arxiv.org/abs/2001.05001)
+
+- *Anomaly Detection with Density Estimation*, Benjamin Nachman, David Shih, [hep-ph/2001.04990](https://arxiv.org/abs/2001.04990)
 
 <!---
 
