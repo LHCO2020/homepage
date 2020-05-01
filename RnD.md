@@ -1,4 +1,4 @@
-## LHC Olympics 2020 R\&D Page
+## LHC Olympics 2020 R&D Page
 
 For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from [this](https://zenodo.org/record/2629073#.XKdewGXlRg0) page.  To help get you started, we have also prepared [simple python scripts](https://github.com/lhcolympics2020/parsingscripts) to read in the data and do some basic processing. 
 
