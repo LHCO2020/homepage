@@ -26,7 +26,7 @@ What you should report:
 
 Partial submissions in only a subset of the categories are welcome! You can submit your findings at this Google [form](https://docs.google.com/forms/d/e/1FAIpQLScw323fa9qpLbdMvGtr2YeqcGTjE5Zm18-umIDiPldi_cWxVA/viewform?usp=sf_link).  Outcomes will be judged based on the accuracy of the new physics characterization. For accuracy, we will use the # of sigmas \|(your answer - right answer) / your uncertainty\| from the right answer wherever applicable.
 
-For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from [this page](https://zenodo.org/record/2629073#.XqycAi2ZO_x).  To help get you started, we have also prepared [simple python scripts](https://github.com/lhcolympics2020/parsingscripts) to read in the data and do some basic processing.   The page describing the R&D phase of the challenge can be found [here](https://indico.cern.ch/event/809820/page/16782-lhcolympics2020-old).
+For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from [this page](https://zenodo.org/record/2629073#.XqycAi2ZO_x).  To help get you started, we have also prepared [simple python scripts](https://github.com/lhcolympics2020/parsingscripts) to read in the data and do some basic processing.   The page describing the R&D phase of the challenge can be found [here](RnD.md).
 
 Please do not hesitate to ask questions: we will use the [ML4Jets slack channel](https://join.slack.com/t/ml4jets/shared_invite/enQtNDc4MjAzODE0NDIyLTU0MGIxNmZlY2E4MzY2YzEwNGI2MGI5MzJmMzEwODVjYWY4MDFhMzcyODYyMDViZTY4MTg2MWM2N2Y1YjBhOWM) to discuss technical questions related to this challenge. 
 
