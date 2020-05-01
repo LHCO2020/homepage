@@ -8,7 +8,7 @@ To keep the scope limited, all signals will be of the form X -> hadrons, where X
 
 We strongly encourage you to publish your original research methods using these datasets (before or after) the unveiling of the results.  Anyone who participates will be part of a summary paper to be prepared following the workshop.
 
-Please do not hesitate to ask questions:  we will use the ML4Jets slack channel to discuss technical questions related to this challenge. 
+Please do not hesitate to ask questions:  we will use the [ML4Jets slack channel](https://join.slack.com/t/ml4jets/shared_invite/enQtNDc4MjAzODE0NDIyLTU0MGIxNmZlY2E4MzY2YzEwNGI2MGI5MzJmMzEwODVjYWY4MDFhMzcyODYyMDViZTY4MTg2MWM2N2Y1YjBhOWM) to discuss technical questions related to this challenge. 
 
 Good luck!
 
