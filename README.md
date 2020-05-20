@@ -28,9 +28,7 @@ Partial submissions in only a subset of the categories are welcome! You can subm
 
 For setting up, developing, and validating your methods, we provide background events and a benchmark signal model.  You can download these from [this page](https://doi.org/10.5281/zenodo.2629072).  To help get you started, we have also prepared [simple python scripts](https://github.com/lhcolympics2020/parsingscripts) to read in the data and do some basic processing.   The page describing the R&D phase of the challenge can be found [here](RnD.md).
 
-Please do not hesitate to ask questions: we will use the [ML4Jets slack channel](https://join.slack.com/t/ml4jets/shared_invite/enQtNDc4MjAzODE0NDIyLTU0MGIxNmZlY2E4MzY2YzEwNGI2MGI5MzJmMzEwODVjYWY4MDFhMzcyODYyMDViZTY4MTg2MWM2N2Y1YjBhOWM) to discuss technical questions related to this challenge. 
-
-Please also sign up for the mailing list at lhc-olympics@cern.ch for infrequent announcements and communications.
+Please do not hesitate to ask questions: we will use the [ML4Jets slack channel](https://join.slack.com/t/ml4jets/shared_invite/enQtNDc4MjAzODE0NDIyLTU0MGIxNmZlY2E4MzY2YzEwNGI2MGI5MzJmMzEwODVjYWY4MDFhMzcyODYyMDViZTY4MTg2MWM2N2Y1YjBhOWM) to discuss technical questions related to this challenge. You are also encouraged to sign up for the mailing list at lhc-olympics@cern.ch for infrequent announcements and communications.
 
 Good luck!
 
