@@ -40,7 +40,7 @@ _Gregor Kasieczka, Ben Nachman, and David Shih_
 
 The deadline for the Winter Olympics (Black Box 1) challenge was Sunday, January 12, 2020 at 5pm Eastern US Time. Results were presented in a dedicated session at the [ML4Jets2020 conference](https://indico.cern.ch/event/809820/sessions/329216/#20200116). 
 
-*See the outcome of the Summer Olympics [here](https://indico.cern.ch/event/809820/contributions/3708303/attachments/1971116/3347225/SummaryTalk.pdf).*
+*See the outcome of the Winter Olympics [here](https://indico.cern.ch/event/809820/contributions/3708303/attachments/1971116/3347225/SummaryTalk.pdf).*
 
 ### Summer Olympics
 
