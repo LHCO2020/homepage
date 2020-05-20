@@ -30,6 +30,8 @@ For setting up, developing, and validating your methods, we provide background e
 
 Please do not hesitate to ask questions: we will use the [ML4Jets slack channel](https://join.slack.com/t/ml4jets/shared_invite/enQtNDc4MjAzODE0NDIyLTU0MGIxNmZlY2E4MzY2YzEwNGI2MGI5MzJmMzEwODVjYWY4MDFhMzcyODYyMDViZTY4MTg2MWM2N2Y1YjBhOWM) to discuss technical questions related to this challenge. 
 
+Please also sign up for the mailing list at lhc-olympics@cern.ch for infrequent announcements and communications.
+
 Good luck!
 
 _Gregor Kasieczka, Ben Nachman, and David Shih_
