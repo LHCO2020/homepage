@@ -1,6 +1,6 @@
 ## Welcome to the home of the LHC Olympics 2020!
 
-![img](Banner_grey.jpg)
+![img](Banner_grey.png)
 
 Despite an impressive and extensive effort by the LHC collaborations, there is currently no convincing evidence for new particles produced in high-energy collisions.  At the same time, there has been a growing interest in machine learning techniques to enhance potential signals using all of the available information.  
 
