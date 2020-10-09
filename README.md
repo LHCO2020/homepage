@@ -44,11 +44,11 @@ The deadline for the Winter Olympics (Black Box 1) challenge was Sunday, January
 
 ### Summer Olympics
 
-Black boxes 2 and 3 will be opened at an event originally scheduled to be [hosted in Hamburg in July 2020](http://indico.desy.de/indico/e/anomaly2020).  However, given the situation with COVID-19, this event will be virtual. We will announce the details soon.
+Black boxes 2 and 3 will be opened at an event originally scheduled to be [hosted in Hamburg in July 2020](http://indico.desy.de/indico/e/anomaly2020).  However, given the situation with COVID-19, this event was virtual.
 
 ## Publications
 
-We strongly encourage you to publish your original research methods using these datasets.  We envision making a community comparison / summary paper at some point.  Here are papers published with the LHCO dataset.  Please send links to your papers if you have used this dataset!  Many more preliminary studies can be found in workshops listed above.
+We strongly encourage you to publish your original research methods using these datasets.  We are currently compiling a community comparison / summary paper - please contact the organizers for details (anyone who participated in the Olympics has been invited to contribute).  Here are papers published with the LHCO dataset.  Please send links to your papers if you have used this dataset!  Many more preliminary studies can be found in workshops listed above.
 
 - *Tag N' Train: A Technique to Train Improved Classifiers on Unlabeled Data*, Oz Amram and Cristina Mantilla Suarez, [hep-ph/2002.123760](https://arxiv.org/abs/2002.123760)
 
