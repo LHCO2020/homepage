@@ -50,6 +50,8 @@ Black boxes 2 and 3 will be opened at an event originally scheduled to be [hoste
 
 We strongly encourage you to publish your original research methods using these datasets.  We are currently compiling a community comparison / summary paper - please contact the organizers for details (anyone who participated in the Olympics has been invited to contribute).  Here are papers published with the LHCO dataset.  Please send links to your papers if you have used this dataset!  Many more preliminary studies can be found in workshops listed above.
 
+- *Bump Hunting in Latent Space*, B. Bortolato et al., [hep-ph/2103.06595](https://arxiv.org/pdf/2103.06595.pdf)
+
 - *The LHC Olympics 2020: A Community Challenge for Anomaly Detection in High Energy Physics*, G. Kasieczka et al., [hep-ph/2101.08320](https://arxiv.org/abs/2101.08320)
 
 - *QUAK: Quasi Anomalous Knowledge: Searching for new physics with embedded knowledge*, Sang Eon Park, Dylan Rankin, Silviu-Marian Udrescu, Mikaeel Yunus, Philip Harris, [hep-ph/2011.03550](https://arxiv.org/abs/2011.03550)
