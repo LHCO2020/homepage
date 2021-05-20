@@ -50,6 +50,8 @@ Black boxes 2 and 3 will be opened at an event originally scheduled to be [hoste
 
 We strongly encourage you to publish your original research methods using these datasets.  We are currently compiling a community comparison / summary paper - please contact the organizers for details (anyone who participated in the Olympics has been invited to contribute).  Here are papers published with the LHCO dataset.  Please send links to your papers if you have used this dataset!  Many more preliminary studies can be found in workshops listed above.
 
+- *Anomalous Jet Identification via Sequence Modeling*, Alan Kahn, Julia Gonski, Ines Ochoa, Daniel Williams, and Gustaaf Brooijmansa, [hep-ph/2105.09274](https://arxiv.org/abs/2105.09274)
+
 - *Comparing Weak- and Unsupervised Methods for Resonant Anomaly Detection*, Jack H. Collins, Pablo Martin-Ramiro, Benjamin Nachman, David Shih, [hep-ph/2104.02092](https://arxiv.org/abs/2104.02092)
 
 - *Bump Hunting in Latent Space*, B. Bortolato et al., [hep-ph/2103.06595](https://arxiv.org/pdf/2103.06595.pdf)
